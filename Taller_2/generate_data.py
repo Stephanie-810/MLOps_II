@@ -14,7 +14,7 @@ import pandas as pd
 
 
 class UserGenerator:
-    def __init__(self, n_samples=1000, seed=42):
+    def __init__(self, n_samples=100, seed=42):
         self.n_samples = n_samples
         self.seed = seed
 
